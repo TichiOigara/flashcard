@@ -1,0 +1,14 @@
+$("document").ready(function(){
+  $("h2#js").click(function(){
+    $("#defJs").slideToggle();
+});
+$("h2#op").click(function(){
+  $("#defOp").slideToggle();
+});
+$("h2#func").click(function(){
+  $("#defFunc").slideToggle();
+});
+$("h2#str").click(function(){
+  $("#defStr").slideToggle();
+});
+});
